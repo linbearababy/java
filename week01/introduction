@@ -1,0 +1,50 @@
+
+#Introduction
+
+This book teaches programming using Java. Java is a powerful language that runs on practically every type of computer. It can be used to create large applications or small programs
+that are part of a Web site. Before plunging right into learning Java, however, this chapter
+will review the fundamentals of computer hardware and software, and then take a broad
+look at computer programming in general.
+
+# Why Program?
+
+Concept: Computers can do many different jobs because they are programmable.
+Every profession has tools that make the job easier to do. Carpenters use hammers, saws,
+and measuring tapes. Mechanics use wrenches, screwdrivers, and ratchets. Electronics technicians use probes, scopes, and meters. Some tools are unique and can be categorized as
+belonging to a single profession. For example, surgeons have certain tools that are designed
+specifically for surgical operations. Those tools probably aren’t used by anyone other than
+surgeons. There are some tools, however, that are used in several professions. Screwdrivers,
+for instance, are used by mechanics, carpenters, and many others.
+The computer is a tool used by so many professions that it cannot be easily categorized. It
+can perform so many different jobs that it is perhaps the most versatile tool ever made. To the
+accountant, computers balance books, analyze profits and losses, and prepare tax reports.
+To the factory worker, computers control manufacturing machines and track production.
+To the mechanic, computers analyze the various systems in an automobile and pinpoint
+hard-to-find problems. The computer can do such a wide variety of tasks because it can 
+2 Chapter 1 Introduction to Computers and Java
+be programmed. It is a machine specifically designed to follow instructions. Because of the
+computer’s programmability, it doesn’t belong to any single profession. Computers are
+designed to do whatever job their programs, or software, tell them to do.
+Computer programmers do a very important job. They create software that transforms
+computers into the specialized tools of many trades. Without programmers, the users of
+computers would have no software, and without software, computers would not be able to
+do anything.
+Computer programming is both an art and a science. It is an art because every aspect of a
+program should be carefully designed. Here are a few of the things that must be designed
+for any real-world computer program:
+  •	 The logical flow of the instructions
+  •	 The mathematical procedures
+  •	 The layout of the programming statements
+  •	 The appearance of the screens
+  •	 The way information is presented to the user
+  •	 The program’s “user friendliness”
+  •	 Manuals, help systems, and/or other forms of written documentation
+There is also a science to programming. Because programs rarely work right the first time
+they are written, a lot of analyzing, experimenting, correcting, and redesigning is required.
+This demands patience and persistence of the programmer. Writing software demands discipline as well. Programmers must learn special languages such as Java because computers do
+not understand English or other human languages. Programming languages have strict rules
+that must be carefully followed.
+Both the artistic and scientific nature of programming makes writing computer software
+like designing a car: Both cars and programs should be functional, efficient, powerful, easy
+to use, and pleasing to look at.
+
