@@ -48,3 +48,94 @@ Both the artistic and scientific nature of programming makes writing computer so
 like designing a car: Both cars and programs should be functional, efficient, powerful, easy
 to use, and pleasing to look at.
 
+Computer Systems: Hardware and Software
+Concept: All computer systems consist of similar hardware devices and
+software components.
+Hardware
+Hardware refers to the physical components that a computer is made of. A computer, as we
+generally think of it, is not an individual device, but a system of devices. Like the instruments in a symphony orchestra, each device plays its own part. A typical computer system
+consists of the following major components:
+•	 The central processing unit (CPU)
+•	 Main memory
+•	 Secondary storage devices
+•	 Input devices
+•	 Output devices
+The organization of a computer system is shown in Figure 1-1.
+
+Let’s take a closer look at each of these devices.
+The CPU
+At the heart of a computer is its central processing unit, or CPU. The CPU’s job is to fetch
+instructions, follow the instructions, and produce some resulting data. Internally, the central
+processing unit consists of two parts: the control unit and the arithmetic and logic unit (ALU).
+The control unit coordinates all of the computer’s operations. It is responsible for determining where to get the next instruction and regulating the other major components of the computer with control signals. The arithmetic and logic unit, as its name suggests, is designed to
+perform mathematical operations. The organization of the CPU is shown in Figure 1-2.
+
+A program is a sequence of instructions stored in the computer’s memory. When a computer
+is running a program, the CPU is engaged in a process known formally as the fetch/decode/
+execute cycle. The steps in the fetch/decode/execute cycle are as follows:
+
+Fetch The CPU’s control unit fetches, from main memory, the next instruction in the
+sequence of program instructions.
+Decode The instruction is encoded in the form of a number. The control unit decodes the
+instruction and generates an electronic signal.
+Execute The signal is routed to the appropriate component of the computer (such as the
+ALU, a disk drive, or some other device). The signal causes the component to
+perform an operation.
+These steps are repeated as long as there are instructions to perform.
+
+Main Memory
+Commonly known as random access memory, or RAM, the computer’s main memory is a
+device that holds information. Specifically, RAM holds the sequences of instructions in the
+programs that are running and the data those programs are using.
+Memory is divided into sections that hold an equal amount of data. Each section is made of
+eight “switches” that may be either on or off. A switch in the on position usually represents
+the number 1, whereas a switch in the off position usually represents the number 0. The computer stores data by setting the switches in a memory location to a pattern that represents a
+character or a number. Each of these switches is known as a bit, which stands for binary
+digit. Each section of memory, which is a collection of eight bits, is known as a byte. Each
+byte is assigned a unique number known as an address. The addresses are ordered from
+lowest to highest. A byte is identified by its address in much the same way a post office box
+is identified by an address. Figure 1-3 shows a series of bytes with their addresses. In the
+illustration, sample data is stored in memory. The number 149 is stored in the byte at
+address 16, and the number 72 is stored in the byte at address 23.
+RAM is usually a volatile type of memory, used only for temporary storage. When the computer is turned off, the contents of RAM are erased.
+
+Secondary Storage
+Secondary storage is a type of memory that can hold data for long periods of time—even
+when there is no power to the computer. Frequently used programs are stored in secondary
+memory and loaded into main memory as needed. Important data, such as word processing
+documents, payroll data, and inventory figures, is saved to secondary storage as well.
+The most common type of secondary storage device is the disk drive. A traditional disk
+drive stores data by magnetically encoding it onto a spinning circular disk. Solid state
+drives, which store data in solid-state memory, are increasingly becoming popular. A
+solid-state drive has no moving parts, and operates faster than a traditional disk drive. 
+
+Most computers have some sort of secondary storage device, either a traditional disk
+drive or a solid-state drive, mounted inside their case. External drives are also available,
+which connect to one of the computer’s communication ports. External drives can be used to
+create backup copies of important data or to move data to another computer.
+In addition to external drives, many types of devices have been created for copying data, and
+for moving it to other computers. Universal Serial Bus drives, or USB drives are small
+devices that plug into the computer’s USB (Universal Serial Bus) port, and appear to the
+system as a disk drive. These drives do not actually contain a disk, however. They store data
+in a special type of memory known as flash memory. USB drives are inexpensive, reliable,
+and small enough to be carried in your pocket.
+Optical devices such as the CD (compact disc) and the DVD (digital versatile disc) are also
+popular for data storage. Data is not recorded magnetically on an optical disc, but is
+encoded as a series of pits on the disc surface. CD and DVD drives use a laser to detect the
+pits and thus read the encoded data. Optical discs hold large amounts of data, and because
+recordable CD and DVD drives are now commonplace, they make a good medium for
+creating backup copies of data.
+
+Input Devices
+Input is any data the computer collects from the outside world. The device that collects the
+data and sends it to the computer is called an input device. Common input devices are the
+keyboard, mouse, scanner, and digital camera. Disk drives, optical drives, and USB drives
+can also be considered input devices because programs and data are retrieved from them
+and loaded into the computer’s memory.
+Output Devices
+Output is any data the computer sends to the outside world. It might be a sales report, a
+list of names, or a graphic image. The data is sent to an output device, which formats and
+presents it. Common output devices are monitors and printers. Disk drives, USB drives,
+and CD recorders can also be considered output devices because the CPU sends data to
+them to be saved.
+
