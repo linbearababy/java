@@ -1,0 +1,37 @@
+# main() Method in Java
+
+    public class Person {
+
+      public static void main(String[] args) {
+
+        System.out.println("Hello, world!");
+
+      }
+
+    }
+In Java, every application must contain a main() method, which is the entry point for the application. All other methods are invoked from the main() method.
+
+The signature of the method is public static void main(String[] args) { }. It accepts a single argument: an array of elements of type String.
+
+# Java Classes
+
+public class Person {
+  
+  int age;
+  
+  public static void main(String[] args) {
+    
+    // p and p1 are objects of the Person class
+    Person p1 = new Person();
+    Person p2 = new Person();
+    p1.age = 20;
+    p2.age = 30;
+    
+  }
+  
+}
+In Java, a class is used as a blueprint to create objects. Each object made from a class is an individual entity.
+
+A Java program must have one class whose name is the same as the program filename.
+
+In the example, the Person class must be declared in a program file named Person.java.
