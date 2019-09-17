@@ -47,5 +47,24 @@ In Java, when we compile a program, each individual class is converted into a .c
 
 The JVM (Java virtual machine) is used to run the byte code.
 
+# Java Statements
+
+System.out.println("Hello World");
+
+System.out.println("Java Programming Language");
+In Java, a statement is a line of code that executes a task and is terminated with a ;.
+
+# Whitespace in Java
+
+System.out.println("Example of a statement");
+
+System.out.println("Another statement");
+
+// Output:
+// Example of a statement
+// Another statement
+In Java, a statement is terminated with a ;.
+
+Whitespace, including spaces and newlines, between statements is ignored.
 
 
