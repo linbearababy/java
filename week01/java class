@@ -67,67 +67,67 @@ Java has pre-defined classes such as System, which we’ve used in logging text 
 
 Here’s a definition of a Java class:
 
-public class Car {
-// scope of Car class starts after curly brace
+        public class Car {
+        // scope of Car class starts after curly brace
 
-  public static void main(String[] args) {
-    // scope of main() starts after curly brace
+          public static void main(String[] args) {
+            // scope of main() starts after curly brace
 
-    // program tasks
+            // program tasks
 
-  }
-  // scope of main() ends after curly brace
+          }
+          // scope of main() ends after curly brace
 
-}
-// scope of Car class ends after curly brace
+        }
+        // scope of Car class ends after curly brace
 This example defines a class named Car. public is an access level modifier that allows other classes to interact with this class. For now, all classes will be public.
 
 This class has a main() method, which lists the tasks performed by the program. main() runs when we execute the compiled Car.class file.
 
-        public class Store {
-          public static void main(String[] args) {
+                public class Store {
+                  public static void main(String[] args) {
 
-          }
+                  }
 
-        }
+                }
         
-Classes: Constructors
+# Classes: Constructors
 We create objects (instances of a class) using a constructor method. The constructor is defined within the class.
 
 Here’s the Car class with a constructor:
 
-public class Car {
-  public Car() {
-  //constructor method starts after curly brace
+        public class Car {
+          public Car() {
+          //constructor method starts after curly brace
 
-    //instructions for creating a Car instance
+            //instructions for creating a Car instance
 
-  }
-  //constructor method ends after curly brace
+          }
+          //constructor method ends after curly brace
 
-  public static void main(String[] args) {
+          public static void main(String[] args) {
 
-    // program tasks
+            // program tasks
 
-  }
-}
+          }
+        }
 The constructor, Car(), shares a name with the class.
 
 We create instances by calling or invoking the constructor within main(). This example assigns an instance to the variable ferrari:
 
-public class Car {
+        public class Car {
 
-  public Car() {
-  }
+          public Car() {
+          }
 
-  public static void main(String[] args) {
-    /*
-    invoke a constructor using 
-    'new', the name, and parentheses:
-    new Car()
-    */
-    Car ferrari = new Car(); 
-  }
+          public static void main(String[] args) {
+            /*
+            invoke a constructor using 
+            'new', the name, and parentheses:
+            new Car()
+            */
+            Car ferrari = new Car(); 
+          }
 }
 As with other variable declarations, we specify the type: Car, and name: ferrari. Variables that reference an instance have a type of the class name.
 
@@ -136,3 +136,88 @@ We invoke the constructor method: Car(), and use the keyword new to indicate tha
 This is the first time we’ve called a method that we’ve also defined. main() is run automatically and we did not define the println() method.
 
 Introducing a second method is a big step in your programming journey, congratulations!
+
+
+Instructions
+1.
+Let’s explore how code execution moves around the file with two methods.
+
+Add a print statement inside our Store constructor with the message: I am inside the constructor method.
+
+We’ll see this message whenever we create an instance of Store by calling the constructor.
+
+We print messages using System.out.println(). Here’s an example printing the message Making a shoe!
+
+        System.out.println("Making a shoe!");
+Make sure you’re placing the print statement inside the curly braces of the Store() constructor method!
+
+2.
+We did not see our constructor message printed because we haven’t run the code inside the constructor.
+
+Inside main(), create an instance of Store called lemonadeStand. Don’t forget the new keyword!
+
+We should see the constructor message.
+
+We create instances of a class by using the new keyword and invoking the constructor.
+
+For example, say we had a Dog class.
+
+    public Dog {
+      public Dog() {
+        // body of Dog constructor method
+      }
+      public static void main(String[] args) {
+        // declare variable type and name
+        Dog fido;
+        // assign a new instance of Dog to fido
+        fido = new Dog();
+      }
+    }
+We’ll often consolidate declaration and assignment into a single line:
+
+Dog fido = new Dog();
+3.
+Inside main(), print lemonadeStand to see how Java represents this instance.
+
+Review the order of the printed messages:
+
+Running the program invokes main()
+We create an instance so we move from main() to Store()
+The code inside Store() runs
+When Store() finishes execution, we return to main()
+When printing a variable, do not use double quotes.
+
+Here’s how to print the variable fido:
+
+System.out.println(fido);
+
+public class Store {
+  
+  // new method: constructor!
+  
+  # example
+  
+          public Store() {
+                System.out.println("I am inside the constructor method.");
+          }
+
+          // main method is where we create instances!
+          public static void main(String[] args) {
+            System.out.println("Start of the main method.");
+
+            // create the instance below
+            Store lemonadeStand;
+            lemonadeStand = new Store();
+
+            // print the instance below
+             System.out.println(lemonadeStand);
+          }
+        }
+        
+        
+        
+        output 
+        
+        Start of the main method.
+        I am inside the constructor method.
+        Store@2aae9190
