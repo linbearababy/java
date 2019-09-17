@@ -35,3 +35,17 @@ In Java, a class is used as a blueprint to create objects. Each object made from
 A Java program must have one class whose name is the same as the program filename.
 
 In the example, the Person class must be declared in a program file named Person.java.
+
+# Compiling in Java
+
+ Compile the class file:
+javac first.java
+
+# Execute the compiled file:
+java first
+In Java, when we compile a program, each individual class is converted into a .class file, which is known as byte code.
+
+The JVM (Java virtual machine) is used to run the byte code.
+
+
+
