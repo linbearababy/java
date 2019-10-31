@@ -1,0 +1,95 @@
+LinkedList
+Stack
+Heap, PriorityQueue
+HashMap
+Graph, BFS, DFS
+Tree, BT, BST
+Sort
+Dynamic Programming
+Binary search
+Recursion
+Sliding window
+Greedy + Backtracking
+If you can solve them quickly, you would have a high chance to pass coding interview. Problems are either Easy or Medium. I put these questions in Google Spreadsheet. Feel free to copy and paste to keep track of the progress.
+These problems are also available on LeetCode List. You can clone to your account to avoid solving problems you have already solved.
+LinkedList
+Linked List Cycle
+Linked List Cycle II
+Remove Duplicates from Sorted List
+Remove Duplicates from Sorted List II
+Add Two Numbers
+Stack
+Valid Parentheses
+Reverse Linked List
+Heap, PriorityQueue
+Kth Largest Element in a Stream
+Top K Frequent Elements
+Find K Pairs with Smallest Sums
+HashMap
+Two Sum
+Group Anagrams
+Intersection of Two Arrays
+Unique Email Addresses
+First Unique Character in a String
+Subarray Sum Equals K
+Graph, BFS, DFS
+Number of Islands
+Max Area of Island
+Number of Connected Components in an Undirected Graph
+Word Ladder
+Tree, BT, BST
+Maximum Depth of Binary Tree
+Minimum Depth of Binary Tree
+Merge Two Binary Trees
+Convert Sorted Array to Binary Search Tree
+Path Sum
+Binary Tree Level Order Traversal
+Binary Tree Zigzag Level Order Traversal
+Validate Binary Search Tree
+Construct Binary Tree from Preorder and Inorder Traversal
+Sort
+Check out Sorting Algorithms Animations. Understand in which data set radix sort or insertion sort are better than general heap/merge sort. Go each of sorting algorithms and understand pros and cons.
+Dynamic Programming
+Paint Fence
+Longest Increasing Subsequence
+Maximum Subarray
+Unique Paths
+Unique Paths II
+House Robber
+House Robber II
+Best Time to Buy and Sell Stock
+Best Time to Buy and Sell Stock II
+Word Break
+Coin Change
+Binary Search
+Search Insert Position
+Find Minimum in Rotated Sorted Array
+Search in Rotated Sorted Array
+Capacity To Ship Packages Within D Days
+Recursion
+Pow(x, n)
+K-th Symbol in Grammar
+Split BST
+Sliding Window
+Longest Substring Without Repeating Characters
+Minimum Size Subarray Sum
+Greedy + Backtracking
+Permutations
+Subsets
+Combination Sum
+Generate Parentheses
+Others
+I could not put these problems in above categories, but good to solve.
+Move Zeroes
+Meeting Rooms
+Meeting Rooms II
+Is Subsequence
+Next Permutation
+String to Integer (atoi)
+ZigZag Conversion
+Summary
+If you complete all questions and looking for more problem sets, I recommend checking out Algorithm Questions. They also summarize LeetCode problems by category.
+If you finish Algorithm Questions too, check out Algorithms and Coding Interviews. My friend is writing it, and it’s worth to read. It provides more detail explanation and general approaches to the problems.
+I mentioned these links in the middle of the stories, but here are links to keep track of your progress. Feel free to use them!
+Google Spreadsheet
+LeetCode problem list
