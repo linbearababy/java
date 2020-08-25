@@ -86,3 +86,31 @@ public class Solution {
         return ans;
     }
 }
+
+
+#all past
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+       if (s == null || s.length() == 0) {
+           return 0;
+       }
+        HashSet<Character> set = new HashSet<>();
+        int res = 0;
+        for (int i = 0, j =0; i<s.length();) {
+            if (set.contains(s.charAt(i))) {
+                //先输出j所在的char, 再将j+1
+                //
+                set.remove(s.charAt(j++));
+            }
+            else{
+                //先输出i所在的char, 再将i+1
+                //不重复才移动i
+                set.add(s.charAt(i++));
+                res = Math.max(res, set.size());
+            }
+            
+            
+        }
+        return res;
+    }
+}
