@@ -9,3 +9,6 @@ we can change our method into a more simpliest and save way:
 
 ![dynamic](https://github.com/linbearababy/java/blob/master/leetcode/top%20100%20liked/截屏2020-09-1702.59.55.png?raw=true)
 dynamic是从上到下的
+
+如果两者相等（满足条件， 则进行操作，并且和坐上对角线的那个数据相加）
+如果不满足条件，则从右边的写对角线选择最大值
