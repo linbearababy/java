@@ -1,2 +1,9 @@
 recurrence will have many repeated value which will call and calculate again and over again. Then we can use the dynamtic to solvethis problem. 
-[!] = 
+
+for example is want to find the longest common subsequence , we can choose to use the recurrence function.
+
+![recurrence:] (https://github.com/linbearababy/java/blob/master/leetcode/top%20100%20liked/截屏2020-09-1702.41.21.png?raw=true)
+
+we can change our method into a more simpliest and save way:
+
+![dynamic] (https://github.com/linbearababy/java/blob/master/leetcode/top%20100%20liked/截屏2020-09-1702.59.55.png?raw=true)
